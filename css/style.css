@@ -28,12 +28,13 @@ tr:first-child td:first-child {
 tr:nth-child(n + 1):nth-child(-n + 6) :last-child {
   background-color: #da8bd3;
 }
-/* F - At */
+/* Uuo */
 tr:nth-child(7):nth-child(7) :last-child {
   background-color: #e5cf9f;
 }
-/* Oganesson */
-tr:nth-child(n + 2):nth-child(-n + 6) :nth-child(17) {
+/* F - At and Uup*/
+tr:nth-child(n + 2):nth-child(-n + 6) :nth-child(17),
+tr:nth-child(7):nth-child(7) :nth-child(15) {
   background-color: #d7b13e;
 }
 /* Uss*/
@@ -48,6 +49,7 @@ tr:nth-child(n):nth-child(7) :nth-child(16) {
 tr:nth-child(n + 2):nth-child(-n + 4) :nth-child(16) {
   background-color: #f3ff3d;
 }
+/* Te - Po */
 tr:nth-child(n + 5):nth-child(-n + 6) :nth-child(16) {
   background-color: #ff9b69;
 }
@@ -59,15 +61,30 @@ tr:nth-child(n + 2):nth-child(-n + 3) :nth-child(15) {
 tr:nth-child(n + 4):nth-child(-n + 5) :nth-child(15) {
   background-color: #ff9b69;
 }
+/* Bi */
+tr:nth-child(6):nth-child(6) :nth-child(15) {
+  background-color: #ffc0cd;
+}
+/* Bi
+tr:nth-child(7):nth-child(7) :nth-child(15) {
+  background-color: #d7b13e;
+} */
 /* C */
 tr:nth-child(n + 2):nth-child(-n + 2) :nth-child(14) {
   background-color: #f3ff3d;
 }
 /* Si - Ge*/
-tr:nth-child(n + 2):nth-child(-n + 4) :nth-child(14) {
+tr:nth-child(n + 3):nth-child(-n + 4) :nth-child(14) {
   background-color: #ff9b69;
 }
 /* B */
 tr:nth-child(n + 2):nth-child(-n + 2) :nth-child(13) {
   background-color: #ff9b69;
+}
+/* Sn - Fl */
+tr:nth-child(n + 5):nth-child(-n + 7) :nth-child(14) {
+  background-color: #ffc0cd;
+}
+tr:nth-child(n + 3):nth-child(-n + 7) :nth-child(13) {
+  background-color: #ffc0cd;
 }
