@@ -1,0 +1,35 @@
+table {
+  width: 90vw;
+  height: 90vh;
+  margin: 10vh auto;
+}
+td {
+  text-align: center;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 10%;
+  border: 2px gray solid;
+}
+td:empty {
+  /* border: none; */
+}
+td:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+tr:nth-child(7) :nth-child(n + 3):nth-child(-n + 4) {
+  background-color: rgba(0, 0, 222, 0.5);
+}
+/* Hydrogen */
+tr:first-child td:first-child {
+  background-color: yellow;
+}
+tr:nth-child(n + 1):nth-child(-n + 6) :last-child {
+  background-color: purple;
+}
+tr:nth-child(7):nth-child(7) :last-child {
+  background-color: #e5cf9f;
+}
+tr:nth-child(n + 2):nth-child(-n + 6) :nth-child(17) {
+  background-color: #d7b13e;
+}
