@@ -48,11 +48,26 @@ tr:nth-child(n):nth-child(7) :nth-child(16) {
 tr:nth-child(n + 2):nth-child(-n + 4) :nth-child(16) {
   background-color: #f3ff3d;
 }
+tr:nth-child(n + 5):nth-child(-n + 6) :nth-child(16) {
+  background-color: #ff9b69;
+}
 /* N - P */
 tr:nth-child(n + 2):nth-child(-n + 3) :nth-child(15) {
   background-color: #f3ff3d;
 }
+/* As -Sb */
+tr:nth-child(n + 4):nth-child(-n + 5) :nth-child(15) {
+  background-color: #ff9b69;
+}
 /* C */
 tr:nth-child(n + 2):nth-child(-n + 2) :nth-child(14) {
   background-color: #f3ff3d;
+}
+/* Si - Ge*/
+tr:nth-child(n + 2):nth-child(-n + 4) :nth-child(14) {
+  background-color: #ff9b69;
+}
+/* B */
+tr:nth-child(n + 2):nth-child(-n + 2) :nth-child(13) {
+  background-color: #ff9b69;
 }
