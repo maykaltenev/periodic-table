@@ -17,8 +17,9 @@ td:hover {
   transform: scale(1.5);
   transition: 0.5s;
 }
-tr:nth-child(7) :nth-child(n + 3):nth-child(-n + 4) {
-  background-color: rgba(0, 0, 222, 0.5);
+/* Ac - No  and A blank*/
+tr:nth-child(7) :nth-child(3), tr:nth-child(9) :nth-child(n+2):nth-child(-n+15) {
+  background-color: rgba(61,161,160,255)
 }
 /* Hydrogen */
 tr:first-child td:first-child {
@@ -101,3 +102,7 @@ tr:nth-child(n + 2):nth-child(-n + 7) :nth-child(2) {
 tr:nth-child(n + 4):nth-child(-n + 5) {
   background-color: #3d9f4e;
 }
+tr:nth-child(n + 5):nth-child(-n + 4) {
+  background-color: #3d9f4e;
+}
+tr
