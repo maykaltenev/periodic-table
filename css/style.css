@@ -18,12 +18,14 @@ td:hover {
   transition: 0.5s;
 }
 /* Ac - No  and A blank*/
-tr:nth-child(7) :nth-child(3), tr:nth-child(9) :nth-child(n+2):nth-child(-n+15) {
-  background-color: rgba(61,161,160,255)
+tr:nth-child(7) :nth-child(3),
+tr:nth-child(9) :nth-child(n + 2):nth-child(-n + 15) {
+  background-color: rgba(61, 161, 160, 255);
 }
 /* La - Yb and a blank */
-tr:nth-child(6) :nth-child(3), tr:nth-child(8) :nth-child(n+2):nth-child(-n+15)  {
-    background-color: rgba(167,210,254,255)
+tr:nth-child(6) :nth-child(3),
+tr:nth-child(8) :nth-child(n + 2):nth-child(-n + 15) {
+  background-color: rgba(167, 210, 254, 255);
 }
 /* Hydrogen */
 tr:first-child td:first-child {
@@ -102,11 +104,13 @@ tr:nth-child(n + 2):nth-child(-n + 7) :nth-child(1) {
 tr:nth-child(n + 2):nth-child(-n + 7) :nth-child(2) {
   background-color: #e5cf9f;
 }
-/* Sc - Zn   Y-Cd*/
-tr:nth-child(n + 4):nth-child(-n + 5) {
+/* Sc - Zn  Y-Cd Hf - Hg Rf-Cn*/
+tr:nth-child(4) :nth-child(n + 3):nth-child(-n + 12),
+tr:nth-child(5) :nth-child(n + 3):nth-child(-n + 12),
+tr:nth-child(6) :nth-child(n + 4):nth-child(-n + 12),
+tr:nth-child(7) :nth-child(n + 4):nth-child(-n + 12) {
   background-color: #3d9f4e;
 }
-tr:nth-child(n + 5):nth-child(-n + 4) {
+tr :nth-child(n + 8) :nth-child(-n + 6) {
   background-color: #3d9f4e;
 }
-tr
