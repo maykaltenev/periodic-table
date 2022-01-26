@@ -24,12 +24,23 @@ tr:nth-child(7) :nth-child(n + 3):nth-child(-n + 4) {
 tr:first-child td:first-child {
   background-color: yellow;
 }
+/* He -Rn */
 tr:nth-child(n + 1):nth-child(-n + 6) :last-child {
-  background-color: purple;
+  background-color: #da8bd3;
 }
+/* F - At */
 tr:nth-child(7):nth-child(7) :last-child {
   background-color: #e5cf9f;
 }
+/* Oganesson */
 tr:nth-child(n + 2):nth-child(-n + 6) :nth-child(17) {
   background-color: #d7b13e;
+}
+/* Uss*/
+tr:nth-child(7):nth-child(7) :nth-child(17) {
+  background-color: #8080b1;
+}
+/* Lv */
+tr:nth-child(n):nth-child(7) :nth-child(16) {
+  background-color: #da8bd3;
 }
