@@ -48,3 +48,11 @@ tr:nth-child(n):nth-child(7) :nth-child(16) {
 tr:nth-child(n + 2):nth-child(-n + 4) :nth-child(16) {
   background-color: #f3ff3d;
 }
+/* N - P */
+tr:nth-child(n + 2):nth-child(-n + 3) :nth-child(15) {
+  background-color: #f3ff3d;
+}
+/* C */
+tr:nth-child(n + 2):nth-child(-n + 2) :nth-child(14) {
+  background-color: #f3ff3d;
+}
