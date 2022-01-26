@@ -44,3 +44,7 @@ tr:nth-child(7):nth-child(7) :nth-child(17) {
 tr:nth-child(n):nth-child(7) :nth-child(16) {
   background-color: #da8bd3;
 }
+/* O-Se */
+tr:nth-child(n + 2):nth-child(-n + 4) :nth-child(16) {
+  background-color: #f3ff3d;
+}
