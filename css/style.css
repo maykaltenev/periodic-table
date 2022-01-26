@@ -21,6 +21,10 @@ td:hover {
 tr:nth-child(7) :nth-child(3), tr:nth-child(9) :nth-child(n+2):nth-child(-n+15) {
   background-color: rgba(61,161,160,255)
 }
+/* La - Yb and a blank */
+tr:nth-child(6) :nth-child(3), tr:nth-child(8) :nth-child(n+2):nth-child(-n+15)  {
+    background-color: rgba(167,210,254,255)
+}
 /* Hydrogen */
 tr:first-child td:first-child {
   background-color: yellow;
