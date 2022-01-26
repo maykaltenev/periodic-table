@@ -93,3 +93,7 @@ tr:nth-child(n + 3):nth-child(-n + 7) :nth-child(13) {
 tr:nth-child(n + 2):nth-child(-n + 7) :nth-child(1) {
   background-color: #8080b1;
 }
+/* Be - Ka */
+tr:nth-child(n + 2):nth-child(-n + 7) :nth-child(2) {
+  background-color: #e5cf9f;
+}
