@@ -18,9 +18,9 @@ The website is meant to provide understating over the :nth:child() selector and 
 ##### Developed With
 
 - [x] _HTML5_
-- [ ] _CSS3_
+- [x] _CSS3_
 - [ ] _SASS_
-- [x] _SCSS_
+- [ ] _SCSS_
 - [ ] _React_
 - [ ] _Bootstrap_
 - [x] _npm_
