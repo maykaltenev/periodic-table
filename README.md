@@ -4,7 +4,7 @@
 
 ---
 
-![Screenshot from Project](./images/periodic-table.jpg)
+![Screenshot from Project](./images/periodic-table.png)
 
 ### About Project
 
